@@ -125,3 +125,7 @@ grails:
 endpoints:
     jmx:
         unique-names: true
+
+features:
+    ShowAttributions:
+        enabled: true
