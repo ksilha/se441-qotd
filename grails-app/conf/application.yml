@@ -128,4 +128,4 @@ endpoints:
 
 features:
     ShowAttributions:
-        enabled: false
+        enabled: true
