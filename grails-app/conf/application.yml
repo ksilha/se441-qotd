@@ -30,9 +30,7 @@ environments:
     production:
         dataSource:
             dbCreate: ""
-            url: jdbc:h2:/usr/share/tomcat8/webapps/qotd/
-        quoteDb;MVCC=TRUE;LOCK_TIMEOUT=10000;
-        DB_CLOSE_ON_EXIT=FALSE
+            url: jdbc:h2:/usr/share/tomcat8/webapps/qotd/quoteDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
         properties:
             jmxEnabled: true
             initialSize: 5
